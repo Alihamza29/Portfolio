@@ -188,6 +188,9 @@ button {
     margin: 0 10px;
 }
 
+.navbar_menu_color{
+    background-color: #091020;
+}
 .header_wrapper .nav-item .nav-link {
     position: relative;
     font-size: 16px;
