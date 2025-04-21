@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- external css links  -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <title>Portfolio</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+  <!-- Navbar Section -->
+  <header class="header_wrapper">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Portfolio</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav menu-navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Banner section -->
+  <section class="banner_wrapper" id="home">
+    <div class="container">
+      <div class="row">
+      
+        <div class="col-lg-5 order-1 order-lg-2 mb-4 mb-lg-0 home_image">
+          <img src="images\myimage.jpg" alt="image" />
+        </div>
+     
+        <div class="col-lg-7 order-2 order-lg-1 home_data text-center text-md-start  ">
+          <h6>WELCOME TO MY WORLD</h6>
+          <h1>
+            I'm Ali Hamza <br /><span>Python Developer</span><br />based in
+            USA.
+          </h1>
+          <div class="mt-4">
+            <a href="" class="main-btn">Download CV</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About aection -->
+  <section class="about_wrapper mt-1" id="about">
+    <div class="container">
+      <div class="my-3 my-lg-0 col-sm-12 text-center mb-5 about_title">
+        <span class="subtitle">My About Details</span>
+        <h2>About Me</h2>
+
+      </div>
+      <div class="row justify-content-between align-items-center">
+        <div class="col-lg-4 mb-4 mb-lg-0 ">
+          <div class="about_image">
+            <img src="images/myimage.jpg" alt="human image" />
+          </div>
+        </div>
+        <div class="col-lg-8   text-center text-1g-start about_data">
+          <p class="about_para">
+            Passionate and dedicated Computer Science student with a strong
+            foundation in both front-end and back-end development. Proficient in
+            HTML, CSS, Python, Django, DSA, and OOP, with a keen interest in
+            building user-friendly and scalable applications. Always eager to learn and
+            enhance user experience through innovative development practices.
+          </p>
+          <div class="pt-4">
+            <ul class="nav nav-pills justify-content-center justify-content-lg-around" id="pills-tab" role="tablist">
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill"
+                  type="button" role="tab" aria-controls="pills-skill" aria-selected="true">Skills</button>
+              </li>
+
+
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-education" type="button" role="tab" aria-controls="pills-education"
+                  aria-selected="false">Education</button>
+              </li>
+
+            </ul>
+            <div class="tab-content " id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
+                <div class="single-progress">
+                  <h6>HTML & CSS</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span class="label">90%</span>
+                </div>
+                <div class="single-progress">
+                  <h6>Bootstrap</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span class="label">70%</span>
+
+                </div>
+                <div class="single-progress">
+                  <h6>Python</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span class="label">60%</span>
+                </div>
+                <div class="single-progress">
+                  <h6>django</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span class="label">70%</span>
+
+                </div>
+
+              </div>
+
+
+
+
+              <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
+
+                <ul class="text-start ps-0 mt-4">
+
+                  <li>
+                    <h4 class="education_title">Bachelor of Computer Science:
+                    </h4>
+                    <p class="pt-2 education_para"> The Superior University
+                      4th Semester <br>
+                      Expected Graduation : 2027</p>
+
+                  </li>
+
+                  <li>
+                    <h4 class="education_title  ">
+                      Key Course Work:
+                    </h4>
+                    <p class="py-2 education_para"> Python, Django, Data Structures Algorithm, <br>
+                      Object-Oriented Programing</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- service section  -->
+
+  <section id="services" class="services_wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center mb-4">
+          <span class="subtitle">What I can do for you</span>
+          <h2 class="service_title">My Awesome Service</h2>
+          <p>There are many variations of passages of Lorem Ipsum available, <br class="d-none
+  d-md-block">
+            but the majority have suffered alteration .</p>
+
+        </div>
+      </div>
+     
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <!-- Card -->
+        <div class="col" data-aos="flip-left">
+          <div class="card h-100 bg-gradient bg-dark text-white border-0 shadow-sm">
+            <div class="card-body text-center"><i class="fa fa-code fa-3x mb-3"></i>
+              <h5>Web Development</h5>
+              <p>Responsive websites with Django, HTML5 & Bootstrap.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col" data-aos="flip-right">
+          <div class="card h-100 bg-dark text-white border-0 shadow-sm">
+            <div class="card-body text-center"><i class="fa fa-paint-brush fa-3x mb-3"></i>
+              <h5>UI/UX Design</h5>
+              <p>User-centric interfaces with modern design principles.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col" data-aos="zoom-in">
+          <div class="card h-100 bg-dark text-white border-0 shadow-sm">
+            <div class="card-body text-center"><i class="fa fa-database fa-3x mb-3"></i>
+              <h5>Database Management</h5>
+              <p>Efficient handling of data using PostgreSQL & MySQL.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col" data-aos="fade-right">
+          <div class="card h-100 bg-dark text-white border-0 shadow-sm">
+            <div class="card-body text-center"><i class="fa fa-cogs fa-3x mb-3"></i>
+              <h5>Backend Development</h5>
+              <p>Powerful APIs and server logic with Django & Python.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col" data-aos="fade-left">
+          <div class="card h-100 bg-dark text-white border-0 shadow-sm">
+            <div class="card-body text-center"><i class="fa fa-mobile fa-3x mb-3"></i>
+              <h5>Mobile Friendly</h5>
+              <p>Perfect experience on all screen sizes & devices.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col" data-aos="slide-up">
+          <div class="card h-100 bg-dark text-white border-0 shadow-sm">
+            <div class="card-body text-center"><i class="fa fa-shield-alt fa-3x mb-3"></i>
+              <h5>Security</h5>
+              <p>Secure authentication, authorization and data flows.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- portfolio section  -->
+
+  <section id="project" class="project_wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center mb-4">
+          <span class="subtitle">My Complete project</span>
+          <h2 class="project_title">My Latest Project</h2>
+          <p>There are many variations of passages of Lorem Ipsum available, <br class="d-none
+  d-md-block">
+            but the majority have suffered alteration .</p>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card" ,style="width: 18rem;">
+            <img src="images/blog.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Blogging website</h5>
+              <p class="card-text ">Developed a full-featured blog with user authentication, CRUD
+                operations, and rich-text editing.</p>
+              <a href="#" class="btn card_btn mt-4">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card" ,style="width: 18rem;">
+            <img src="images/calculater.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Calculater</h5>
+              <p class="card-text">A user-friendly app for quick and accurate basic arithmetic operations.</p>
+              <a href="#" class="btn card_btn cal_btn">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card" ,style="width: 18rem;">
+            <img src="images/weather.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Weather APP</h5>
+              <p class="card-text">Developed a dynamic weather application using Django and Open
+                Weather API to provide real-time weather updates.</p>
+              <a href="#" class="btn card_btn weather_btn">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section py-5 text-white">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold contact_title">Contact Me</h2>
+        
+      </div>
+
+      <div class="row">
+        <!-- Left Info Panel -->
+        <div class="col-md-5 mb-4 mb-md-0">
+          <div class="contact-info">
+            <h5><i class="fas fa-envelope me-2 info_title"></i>Email</h5>
+            <p>alihamzahameed786@gmail.com</p>
+
+            <h5><i class="fas fa-phone me-2"></i>Phone</h5>
+            <p>+92 328 4174262</p>
+
+            <h5><i class="fas fa-map-marker-alt me-2"></i>Address</h5>
+            <p>All Ahmad Garden, Lahore, Pakistan</p>
+          </div>
+        </div>
+
+        <!-- Right Contact Form -->
+        <div class="col-md-7">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your name">
+            </div>
+
+            <div class="mb-3">
+              <label for="emailForm" class="form-label">Email</label>
+              <input type="email" class="form-control" id="emailForm" placeholder="Your email">
+            </div>
+
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Your message"></textarea>
+            </div>
+
+            <div class="text-end">
+              <button type="submit" class="btn btn-primary px-4">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="footer-section text-white py-4">
+    <div class="container text-center">
+      <div class="mb-3">
+        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-white me-3"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-github"></i></a>
+      </div>
+      <p class="mb-0">&copy; 2025 Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
