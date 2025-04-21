@@ -188,7 +188,7 @@ button {
     margin: 0 10px;
 }
 
-.navbar_menu_color{
+.navbar{
     background-color: #091020;
 }
 .header_wrapper .nav-item .nav-link {
@@ -392,7 +392,7 @@ button {
 
 
 .services_wrapper .card {
-    background-color: var(--bg-dark-blue);
+    background-color: #091020 ;
     cursor: pointer;
     transition: transform 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
     box-shadow: 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
@@ -474,7 +474,7 @@ button {
 }
 
 .contact-section .form-control {
-    background-color: #302f2f;
+    background-color:  #091020;
     border: 1px solid #444;
     color: #fff;
 }
@@ -505,7 +505,7 @@ button {
 
 
 .footer-section {
-    background-color: #121212;
+    background-color: #091020;
     border-top: 1px solid #333;
 }
 
